@@ -95,12 +95,13 @@
                 <li>Outro item aninhado</li>
             </ul>
         </li>
+    </ul>
         <hr>
         <h2>Links para outros sites ou para páginas do mesmo site</h2>
         <p>
             <ul>    
                 <li><a href="https://www.google.com">Google</a></li> <!--a+href para links-->
-                <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+                <li><a href="https://www.youtube.com" target="_blank" rel="noopener">Youtube</a></li>
                 <li><a href="https://www.instagram.com">Instagram</a></li>
             </ul>
         </p>
@@ -244,6 +245,51 @@
             <td>Fusca!</td>
             <td>RS 6!</td>
         </tr>
+        <h2>Tabela longas</h2>]
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>30</td>
+                    <td>Engenheiro</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>Médica</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>40</td>
+                    <td>Professor</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>28</td>
+                    <td>Designer</td>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total de pessoas: 4</td> <!--colspan para mesclar colunas-->
+                </tr>
+            </tfoot>
+        </table>
         <hr>
+        <h2>Formuários</h2>
+        <h2>Formulários</h2>
+    <form action="https://www.example.com/subscribe.php" method="get"> <!--form para criar um formulário e action para definir o que fazer com os dados do formulário, no caso enviar para um site e method para definir o método de envio dos dados-->
+        <p>Usuário:</p>
+        <input type="text" name="Username" id="Username" placeholder="Digite seu nome de usuário" maxlength="400"> <!--input para criar um campo de texto e type para definir o tipo de campo, name para definir o nome do campo, id para definir o id do campo, placeholder para definir o texto que aparece dentro do campo, required para definir que o campo é obrigatório, size para definir o tamanho do campo e maxlength para definir o número máximo de caracteres que podem ser digitados no campo-->
+        <p>Senha:</p>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha"  maxlength="20"> <!--input para criar um campo de texto e type para definir o tipo de campo, name para definir o nome do campo, id para definir o id do campo, placeholder para definir o texto que aparece dentro do campo, required para definir que o campo é obrigatório, size para definir o tamanho do campo e maxlength para definir o número máximo de caracteres que podem ser digitados no campo-->
+        <p>O que você acha sobre essa página?</p>
+        <textarea name="opinion" id="opinion" cols="30" rows="10" title="Opinião sobre a página" placeholder="Digite sua opinião sobre essa página!"></textarea> <!--textarea para criar um campo de texto grande e cols para definir o número de colunas do campo, rows para definir o número de linhas do campo e placeholder para definir o texto que aparece dentro do campo-->
     </body>
 </html>
