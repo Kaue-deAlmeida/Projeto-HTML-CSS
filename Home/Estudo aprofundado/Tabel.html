@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h2>Tabelas</h2>
+        <table border="5"> <!--table para tabelas e border para definir a borda da tabela-->
+            <th>Segmento</th> <!--th para cabeçalho da tabela-->
+            <th>SubSegmento</th>
+            <th>Cliente</th>
+            <th>Quantidade de Lincenças!</th>
+            <tr> <!--tr para linhas da tabela-->
+                <td rowspan="4"> <!--rowspan para mesclar linhas-->
+                    Tecnologia
+                </td>
+                <td rowspan="2">
+                    Software
+                </td>
+                <td>Empresa A</td>
+                <td>100</td>
+                <tr>
+                    <td>Empresa B</td>
+                    <td>150</td>
+                </tr>
+                 <td rowspan="2">
+                        Hardware
+                </td>
+                <td>Empresa C</td>
+                <td>200</td>
+                <tr>
+                    <td>Empresa D</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        Varejo
+                    </td>
+                    <td>Eletrônicos</td>
+                    <td>Empresa E</td>
+                    <td>300</td>
+                    <tr>
+                        <td>Vestuário</td>
+                        <td>Empresa F</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                    <td rowspan="2">
+                            Supermercado
+                    </td>
+                    <td>Empresa G</td>
+                    <td>80</td>
+                    <tr>
+                        <td>Empresa H</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="4">
+                            Saúde
+                        </td>
+                        <td rowspan="3">
+                            Hospitais
+                        </td>
+                        <td>Empresa I</td>
+                        <td>80</td>
+                        <tr>
+                            <td>Empresa J</td>
+                            <td>180</td>
+                        </tr>
+                        <tr>
+                            <td>Empresa K</td>
+                            <td>250</td>
+                        </tr>
+                        <tr>
+                            <td>Planos de Saúde</td>
+                            <td>Empresa L</td>
+                            <td>150</td>
+                        </tr>
+                    </tr>
+                </tr>
+            </tr>
+        </table>
+        <h4>Cabeçalho da tabela!</h4>
+        <table border="5" cellpadding="15">
+            <th>Astro!</th>
+            <th>CPF!</th>
+            <th>Telefone!</th>
+            <tr>
+            <td>Bill Gates</td>
+            <td>56745941157</td>
+            <td>+1 (26) 632154-4569</td>
+            </tr>
+        </table>
+        <h4>Mesclagem de linhas e colunas!</h4>
+        <table border="5" cellpadding="15">     <!--cellpadding para definir o preenchimento da célula-->
+            <tr>
+                <td rowspan="2"> <!--rowspan para mesclar linhas-->
+                    Linha 1 e Linha 2 mescladas!
+                </td>
+                <td colspan="2">
+                    Coluna 2 e Coluna 3 Mescladas!
+                </td>
+                <tr>
+                    <td> Linha 2 e Coluna 2!</td>
+                    <td>Lina 2 e Coluna 3!</td>
+                </tr>
+            </tr>
+        </table>
+        <h4>Com preenchimento da célula!</h4>
+    <table border="6" cellpadding="15"> <!--cellpadding para definir o preenchimento da célula-->
+        <tr>
+            <td>Flamengo!</td>
+            <td>Paysandu!</td>
+            <td>Trem!</td>
+        </tr>
+        <tr>
+            <td>Mustang!</td>
+            <td>Fusca!</td>
+            <td>RS 6!</td>
+        </tr>
+    </table>
+    <h2>Tabela longas</h2>
+    <table>
+        <thead>
+            <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>30</td>
+                <td>Engenheiro</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>Médica</td>
+                </tr>
+                <tr>
+                    <td>Carlos</td>
+                    <td>40</td>
+                    <td>Professor</td>
+                </tr>
+                <tr>
+                    <td>Ana</td>
+                    <td>28</td>
+                    <td>Designer</td>
+        </tbody>
+        <tfoot>
+            <tr>
+                 <td colspan="3">Total de pessoas: 4</td> <!--colspan para mesclar colunas-->
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
