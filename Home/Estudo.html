@@ -288,6 +288,8 @@
     <form action="https://www.example.com/subscribe.php" method="get"> <!--form para criar um formulário e action para definir o que fazer com os dados do formulário, no caso enviar para um site e method para definir o método de envio dos dados-->
         <p>Usuário:</p>
         <input type="text" name="Username" id="Username" placeholder="Digite seu nome de usuário" maxlength="400"> <!--input para criar um campo de texto e type para definir o tipo de campo, name para definir o nome do campo, id para definir o id do campo, placeholder para definir o texto que aparece dentro do campo, required para definir que o campo é obrigatório, size para definir o tamanho do campo e maxlength para definir o número máximo de caracteres que podem ser digitados no campo-->
+        <p>Email:</p>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required size="30"> <!--input para criar um campo de texto e type para definir o tipo de campo, name para definir o nome do campo, id para definir o id do campo, placeholder para definir o texto que aparece dentro do campo, required para definir que o campo é obrigatório, size para definir o tamanho do campo e maxlength para definir o número máximo de caracteres que podem ser digitados no campo-->
         <p>Senha:</p>
         <input type="password" name="password" id="password" placeholder="Digite sua senha"  maxlength="20"> <!--input para criar um campo de texto e type para definir o tipo de campo, name para definir o nome do campo, id para definir o id do campo, placeholder para definir o texto que aparece dentro do campo, required para definir que o campo é obrigatório, size para definir o tamanho do campo e maxlength para definir o número máximo de caracteres que podem ser digitados no campo-->
         <p>O que você acha sobre essa página?</p>
@@ -324,6 +326,16 @@
             </select>
         </label>
     </p>
-
+    <p>
+        <label for="music-device">Profissão que exerce:</label>
+           <select name="Profissões" id="Profissões" title="Selecione sua profissão">
+                <optgroup label="Profissões">
+                <option value="developer">Desenvolvedor</option>
+                <option value="designer">Designer</option>
+                <option value="manager">Gerente</option>
+                </optgroup>
+            </select>
+        </label>
+    </p>
     </body>
 </html>
