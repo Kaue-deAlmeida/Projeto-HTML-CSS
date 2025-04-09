@@ -27,7 +27,7 @@ p#intro{
 p{
     font-size: 75%
 } */
- body{
+ /* body{
     font-family: Arial, Verdana, sans-serif;
     color: #665544;
     padding: 10px;
@@ -36,4 +36,78 @@ p{
     border: 1px solid #665544;
     background-color: #efefef;
     padding: inherit;
- }
+ } */
+  /*
+  seletor:hover{
+    background-color: #efefef;
+    color: #665544;
+    padding: 10px;
+    }
+    selertor:active{
+    background-color: #665544;
+    }
+    seletor:focus{
+    background-color: #665544;
+    }
+  */
+
+/* body{
+    background-color: #C8C8C8;
+    background-color: hsl(0, 0%, 78%);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    background-color: darkcyan;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 20px 10px 15px #000000;
+}
+h2::first-letter{
+    text-decoration: underline;
+}
+h2{
+    background-color: #ee3e80;
+    font-size: 30px;
+    text-decoration: none;
+    line-height: 24px;
+    word-spacing: 22px;
+}
+p{
+    background-color: white;
+    background-color: hsla(0, 100%, 100%, 0.5);
+    font-style: oblique;
+    line-height: 25px;
+    text-indent: 50px;
+}
+ul{
+    color: rgb(59, 3, 59);
+    text-align: left;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+} */
+
+/* div.box{
+    height: 500px;
+    width: 500px;
+    background-color: #d109b0d7;
+}
+p{
+    height: 700px;
+    width: 900px;
+    background-color: #0088dd;
+    font-size: 80px;
+} */
+
+td.description{
+    min-width: 450px;
+    max-width: 650px;
+    text-align:left;
+    padding: 5px;
+    margin: 0px;
+}
